@@ -1,0 +1,45 @@
+﻿/* Adjust glyphicon positioning */
+.navbar li .glyphicon {
+    margin-right: 10px;
+}
+
+/* Highlighting rules for nav menu items */
+.navbar .navbar-nav .active a, .navbar .navbar-nav .active a:hover, .navbar .navbar-nav .active a:focus {
+    background-image: none;
+    background-color: slategray;
+    color: black;
+}
+
+/* Navbar styling */
+.navbar-default {
+    background-image: none;
+    background-color: skyblue;
+    border-color: lightgray;
+}
+
+    /* Menu item styling */
+    .navbar-default .navbar-nav > li > a {
+        font-weight: bold;
+        color: black;
+    }
+
+    /* Logo styling */
+    .navbar-default .navbar-brand {
+        display: flex;
+        align-items: center;
+        background-image: none;
+        font-weight: bold;
+        color: black;
+    }
+
+        /* Remove color change on logo */
+        .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+            color: black;
+        }
+
+/* Adjust logo picture positioning and size */
+.navbar-brand img {
+    padding-right: .3em;
+    width: auto;
+    height: 2.5em;
+}
