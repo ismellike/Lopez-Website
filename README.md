@@ -1,5 +1,8 @@
-# Lopez-Website
+# Lopez Auto Sales Website
 
+A dynamic ASP.NET website with react and bootstrap that reads data from a database (MySQL) for table entries.
+
+## To-Do List
 ### General
 - [x] Add navbar
 - [x] Basic routes
