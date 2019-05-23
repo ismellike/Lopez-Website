@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Jumbotron } from 'react-bootstrap';
+import "./css/About.css";
 
 export class About extends Component {
 	displayName = About.name
@@ -10,6 +11,7 @@ export class About extends Component {
 				<h1>About Us</h1>
 
 				<table>
+					<tbody>
 					<tr>
 						<td>
 							<Jumbotron>
@@ -37,7 +39,8 @@ export class About extends Component {
 								<hr />
 							</Jumbotron>
 						</td>
-					</tr>
+						</tr>
+						</tbody>
 				</table>
 			</div>
 		);

@@ -1,0 +1,9 @@
+﻿p {
+    margin: 0;
+    text-align: center;
+    font-size: smaller;
+}
+
+a, a:hover, a:focus{
+    color: black;
+}

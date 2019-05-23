@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './css/Home.css';
 
 export class Home extends Component {
 	displayName = Home.name

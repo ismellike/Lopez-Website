@@ -24,9 +24,9 @@ namespace Lopez_Website
         public int NumDoors { get; set; }
         public string DriveType { get; set; }
         public int NumCylinders { get; set; }
+        //Extra info will be loaded from JSON
         public int ExtraData { get; set; } //CSV entries of extra data ex Transmission=Automatic,Fuel=Gasoline
 
-        //Extra info will be loaded from JSON
         public string Name
         {
             get { return Year.ToString() + ' ' + Make + ' ' + Model; }

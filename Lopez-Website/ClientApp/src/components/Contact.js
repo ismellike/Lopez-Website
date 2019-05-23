@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Iframe from 'react-iframe';
+import { Jumbotron } from 'react-bootstrap';
+import './css/Contact.css';
 
 export class Contact extends Component {
 	displayName = Contact.name
