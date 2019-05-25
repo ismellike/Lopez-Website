@@ -9,6 +9,7 @@ export class About extends Component {
 		return (
 			<div className="content">
 				<h1>About Us</h1>
+
 				<table>
 					<tbody>
 					<tr>
