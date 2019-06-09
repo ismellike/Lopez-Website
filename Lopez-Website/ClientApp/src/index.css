@@ -1,7 +1,16 @@
-div .content h1 {
+.content h1 {
     text-align: center;
+    padding: 1%;
+}
+
+.content{
+    padding: 0 5%;
 }
 
 body {
     background-color: lightgray;
+}
+
+.col {
+    padding: 0;
 }

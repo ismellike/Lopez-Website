@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import './css/Home.css';
+import React, { Component } from "react";
+import "./css/Home.css";
 
 export class Home extends Component {
-	displayName = Home.name
+	displayName = Home.name;
 
 	render() {
 		return (
-			<div className="content">
+			<div className="home content">
 				<h1>Inventory</h1>
 			</div>
 		);

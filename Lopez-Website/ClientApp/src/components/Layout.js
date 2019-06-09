@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-import { Col, Grid, Row } from 'react-bootstrap';
-import { NavMenu } from './NavMenu';
-import { Footer } from './Footer';
+import React, { Component } from "react";
+import { Col, Container, Row } from "react-bootstrap";
+import { NavMenu } from "./NavMenu";
+import { Footer } from "./Footer";
 
 export class Layout extends Component {
-	displayName = Layout.name
+	displayName = Layout.name;
 
 	render() {
 		return (
-			<Grid fluid>
+			<Container fluid>
 				<Row>
 					<Col>
 						<NavMenu />
@@ -16,7 +16,7 @@ export class Layout extends Component {
 						<Footer />
 					</Col>
 				</Row>
-			</Grid>
+			</Container>
 		);
 	}
 }
