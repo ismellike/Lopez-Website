@@ -14,7 +14,7 @@ A dynamic ASP.NET website with react and bootstrap that reads data from a databa
 - [ ] Decode json for extra car info from vin
 ### About
 - [x] Add jumbotron table
-- [ ] Add about us information
+- [x] Add about us information
 ### Contact
 - [x] Add Google Maps iframe
-- [ ] Add Contact information
+- [x] Add Contact information
