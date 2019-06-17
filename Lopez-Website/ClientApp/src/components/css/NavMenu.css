@@ -9,7 +9,7 @@
 }
 
 /* nav item styling */
-.navbar-brand a, .navbar-bradn a:hover, .navbar-brand a:focus, .nav-item {
+.navbar-brand a, .navbar-brand a:hover, .navbar-brand a:focus, .nav-item {
     font-weight: bold;
     color: black;
     text-decoration: none;

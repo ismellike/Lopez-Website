@@ -1,28 +1,31 @@
 {
   "name": "lopezautosales",
-  "version": "1.0.0",
+  "version": "0.5.0",
   "description": "A dynamic ASP.NET website with react and bootstrap that reads data from a database (MySQL) for table entries.",
   "main": "index.js",
-  "scripts": {
-    "start": "rimraf ./build && react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
   "keywords": [],
-  "author": "",
+  "author": "Gabriel Lopez",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "core-js": "*",
-    "react": "*",
-    "react-dom": "*",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
     "react-iframe": "*",
     "react-router": "*",
     "react-router-bootstrap": "*",
     "react-router-dom": "*",
-    "react-scripts": "*",
     "rimraf": "*"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
   },
   "devDependencies": {
     "react-bootstrap": "^1.0.0-beta.9"
@@ -34,5 +37,17 @@
   "bugs": {
     "url": "https://github.com/ismellike/Lopez-Website/issues"
   },
-  "homepage": "https://github.com/ismellike/Lopez-Website#readme"
+  "homepage": "https://github.com/ismellike/Lopez-Website#readme",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
